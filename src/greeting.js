@@ -13,9 +13,9 @@ function Greet() {
   return (
     <>
       <h1>{ welcome }</h1>
-      <button onClick={() => dispatch(fetchData())}> Change Greetibg </button>
+      <button type="submit" onClick={() => dispatch(fetchData())}> Change Greetibg </button>
     </>
-  )
+  );
 }
 
 export default Greet;
