@@ -1,9 +1,8 @@
 import React from 'react';
-import Greet from './greeting'
-
+import Greet from './greeting';
 
 function App() {
-  return <Greet />
+  return <Greet />;
 }
 
 export default App;
